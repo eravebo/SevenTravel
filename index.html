@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seven Travel · Viajes en moto por Colombia</title>
+  <meta name="description" content="Somos Camilo y Evelyn. Recorremos Colombia en una Suzuki V-Strom 250 SX y documentamos rutas, destinos y experiencias tal como son.">
+  <meta name="theme-color" content="#141414">
+
+  <!-- Vista previa cuando compartan el enlace en WhatsApp, Instagram o Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Seven Travel · Viajes en moto por Colombia">
+  <meta property="og:description" content="Una pareja, una V-Strom y las carreteras de Colombia.">
+  <meta property="og:image" content="assets/img/og-seventravel.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/logo/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/BarlowCondensed-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/portada-moto-montanas.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#nosotros">Saltar al contenido</a>
+
+  <!-- ===================== ENCABEZADO (píldora flotante) ===================== -->
+  <header class="topbar" id="topbar">
+    <div class="topbar__pill">
+      <a class="topbar__brand" href="#inicio" aria-label="Seven Travel, ir al inicio">
+        <img src="assets/logo/seventravel.svg" alt="" width="80" height="50">
+      </a>
+      <nav class="topbar__nav" aria-label="Secciones">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#cafe">Café</a>
+        <a href="#rutas">Rutas</a>
+        <a href="#reels">Reels</a>
+        <a href="#marcas">Marcas</a>
+      </nav>
+      <a class="btn btn--wa btn--small topbar__cta" href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== PORTADA ===================== -->
+    <section class="hero" id="inicio">
+      <div class="hero__media">
+        <picture class="hero__photo" id="heroPhoto">
+          <source media="(max-width: 700px)" srcset="assets/img/portada-moto-montanas-800.webp">
+          <img src="assets/img/portada-moto-montanas.webp" alt="Camilo y Evelyn junto a su Suzuki V-Strom 250 SX roja, con montañas de Antioquia y nubes de fondo" width="1200" height="1600" fetchpriority="high">
+        </picture>
+      </div>
+      <div class="hero__content" id="heroContent">
+        <h1 class="hero__logo">
+          <img src="assets/logo/seventravel.svg" alt="Seven Travel" width="420" height="265">
+        </h1>
+        <p class="hero__lead">Una pareja, una moto, mucho café y las carreteras de Colombia.</p>
+        <div class="hero__actions">
+          <a class="btn btn--wa" data-wa="general" href="https://wa.me/573046839246" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span>Escríbenos por WhatsApp</span>
+          </a>
+          <a class="btn btn--ghost" href="https://www.instagram.com/seventraveel/" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg>
+            <span>Síguenos en Instagram</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NOSOTROS ===================== -->
+    <section class="about" id="nosotros" aria-labelledby="about-title">
+      <div class="wrap about__intro">
+        <h2 id="about-title" class="display" data-reveal>Viajar en moto no es solo llegar: es vivir cada kilómetro.</h2>
+        <div class="about__text" data-reveal style="--d: 120ms">
+          <p>Somos una pareja que encontró en los viajes en moto una forma de conectar con el camino, las personas y las historias que nacen al salir de la rutina.</p>
+          <p>Creamos Seven Travel en 2023 para documentar rutas, destinos y experiencias a bordo de nuestra Suzuki V-Strom 250 SX. Nos mueve la curiosidad por descubrir lugares, recorrer carreteras y mostrar el viaje tal como es.</p>
+        </div>
+      </div>
+
+      <div class="wrap people">
+        <article class="person" data-reveal>
+          <div class="media person__photo">
+            <img src="assets/img/camilo-moto-montana-800.webp" alt="Camilo junto a la V-Strom roja en lo alto de una montaña, con nubes de fondo" width="800" height="1067" loading="lazy">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name">Camilo</h3>
+            <p class="person__role">Médico veterinario</p>
+            <p>Soy Camilo, tengo 33 años y creo firmemente que la carretera siempre enseña algo. Me gusta viajar sin prisas, probar las cosas en condiciones reales y mostrar la experiencia tal como es. Encuentro en la moto una forma honesta de conocer lugares, personas y de vivir cada viaje con los pies en la tierra y el corazón abierto.</p>
+          </div>
+        </article>
+        <article class="person" data-reveal style="--d: 120ms">
+          <div class="media person__photo">
+            <img src="assets/img/evelyn-moto-lago-800.webp" alt="Evelyn apoyada en la V-Strom roja junto a un lago" width="800" height="984" loading="lazy">
+          </div>
+          <div class="person__body">
+            <h3 class="person__name">Evelyn</h3>
+            <p class="person__role">Administradora financiera y desarrolladora de software</p>
+            <p>Soy Evelyn, tengo 24 años y me mueve la curiosidad por los caminos, las historias y todo lo que pasa cuando uno se atreve a salir. Disfruto planear viajes, capturar momentos y convertir cada ruta en contenido real, cercano y con intención. Para mí, viajar en moto es libertad, aprendizaje y una excusa perfecta para contar historias que conectan.</p>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <!-- ===================== CAFÉ ===================== -->
+    <section class="coffee" id="cafe" aria-labelledby="coffee-title">
+      <div class="wrap coffee__inner">
+        <div class="coffee__text">
+          <!-- vapor animado sobre el título -->
+          <svg class="steam" viewBox="0 0 120 80" aria-hidden="true">
+            <path d="M30 76 C 18 60, 42 50, 30 34 S 36 10, 28 2"/>
+            <path d="M60 76 C 48 58, 72 48, 60 30 S 66 8, 58 0"/>
+            <path d="M90 76 C 78 60, 102 50, 90 34 S 96 10, 88 2"/>
+          </svg>
+          <h2 id="coffee-title" class="display" data-reveal>En cada ruta, una taza de café</h2>
+          <div data-reveal style="--d: 100ms">
+            <p>El café se volvió parte de nuestra esencia. En cada pueblo buscamos una taza de la región: es nuestra forma de conocer la tierra, a la gente que la trabaja y la historia que hay detrás de cada grano.</p>
+            <p>Probarlo donde nace es aprender a valorar lo nuestro.</p>
+            <a class="coffee__link" href="#reels">Mira nuestra ruta del café en Antioquia</a>
+          </div>
+        </div>
+        <div class="coffee__photos">
+          <div class="media coffee__photo coffee__photo--tall" data-reveal><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-pareja.webp" data-src="assets/video/cafe-pareja.mp4" aria-label="Evelyn y Camilo tomando café en un pueblo"></video></div>
+          <div class="media coffee__photo" data-reveal style="--d: 90ms"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-chemex.webp" data-src="assets/video/cafe-chemex.mp4" aria-label="Café filtrándose en una chemex"></video></div>
+          <div class="media coffee__photo" data-reveal style="--d: 180ms"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-taza.webp" data-src="assets/video/cafe-taza.mp4" aria-label="Taza de café recién servida sobre un plato azul"></video></div>
+        </div>
+      </div>
+
+      <!-- cinta de clips: se desliza de lado mientras bajas -->
+      <div class="brew" id="brew" aria-label="Momentos de café en la carretera">
+        <ul class="brew__track" id="brewTrack">
+            <li class="brew__item"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-taza.webp" data-src="assets/video/cafe-taza.mp4" aria-label="Taza de café recién servida"></video></li>
+            <li class="brew__item"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-brindis.webp" data-src="assets/video/cafe-brindis.mp4" aria-label="Brindis con tazas de café verdes"></video></li>
+            <li class="brew__item"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-chemex.webp" data-src="assets/video/cafe-chemex.mp4" aria-label="Café filtrándose en una chemex"></video></li>
+            <li class="brew__item"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-cata.webp" data-src="assets/video/cafe-cata.mp4" aria-label="Brindis con vasos de café de cata"></video></li>
+            <li class="brew__item"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-origen.webp" data-src="assets/video/cafe-origen.mp4" aria-label="Bolsas de café de origen sobre una mesa"></video></li>
+            <li class="brew__item"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-pareja.webp" data-src="assets/video/cafe-pareja.mp4" aria-label="Evelyn y Camilo tomando café"></video></li>
+            <li class="brew__item" aria-hidden="true"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-taza.webp" data-src="assets/video/cafe-taza.mp4" aria-label="Taza de café recién servida"></video></li>
+            <li class="brew__item" aria-hidden="true"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-brindis.webp" data-src="assets/video/cafe-brindis.mp4" aria-label="Brindis con tazas de café verdes"></video></li>
+            <li class="brew__item" aria-hidden="true"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-chemex.webp" data-src="assets/video/cafe-chemex.mp4" aria-label="Café filtrándose en una chemex"></video></li>
+            <li class="brew__item" aria-hidden="true"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-cata.webp" data-src="assets/video/cafe-cata.mp4" aria-label="Brindis con vasos de café de cata"></video></li>
+            <li class="brew__item" aria-hidden="true"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-origen.webp" data-src="assets/video/cafe-origen.mp4" aria-label="Bolsas de café de origen sobre una mesa"></video></li>
+            <li class="brew__item" aria-hidden="true"><video class="clip" muted loop playsinline preload="none" poster="assets/video/cafe-pareja.webp" data-src="assets/video/cafe-pareja.mp4" aria-label="Evelyn y Camilo tomando café"></video></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== RUTAS (la carretera) ===================== -->
+    <section class="routes" id="rutas" aria-labelledby="routes-title">
+      <div class="wrap routes__head">
+        <h2 id="routes-title" class="display" data-reveal>Por donde hemos rodado</h2>
+        <p data-reveal style="--d: 100ms">Pueblos, ciudades e islas a los que hemos llegado en moto. Los marcados en rojo son patrimonio de Colombia.</p>
+      </div>
+
+      <!-- Para agregar un destino: copia una línea <li>. Para marcarlo como patrimonio agrega class="is-heritage" -->
+      <div class="road" id="road">
+        <div class="road__asphalt" aria-hidden="true">
+          <span class="road__line"></span>
+          <span class="road__paint" id="roadPaint"></span>
+        </div>
+        <ol class="road__stops">
+          <li>Norcasia</li>
+          <li class="is-heritage">Santa Fe de Antioquia</li>
+          <li>Nápoles</li>
+          <li>Bogotá</li>
+          <li class="is-heritage">Buga</li>
+          <li>Murillo</li>
+          <li>Lago Calima</li>
+          <li>Manizales</li>
+          <li>Sonsón</li>
+          <li>Betania</li>
+          <li>San Pedro</li>
+          <li class="is-heritage">Jardín</li>
+          <li>Andes</li>
+          <li class="is-heritage">Jericó</li>
+          <li>Támesis</li>
+          <li>Isla Fuerte</li>
+          <li>San Bernardo del Viento</li>
+          <li>Maceo</li>
+          <li>Río Grande</li>
+          <li>Hispania</li>
+          <li>Concepción</li>
+          <li>San Francisco</li>
+          <li>Carolina del Príncipe</li>
+          <li>San Rafael</li>
+          <li>San José del Nus</li>
+          <li>Salto del Buey</li>
+          <li>Montebello</li>
+          <li>Armero</li>
+          <li>Mariquita</li>
+          <li>San Vicente Ferrer</li>
+          <li>Puerto Triunfo</li>
+          <li class="is-heritage" data-label="Municipio patrimonio">Honda</li>
+        </ol>
+      </div>
+      <p class="wrap routes__next" data-reveal>Y la carretera sigue. ¿Qué destino nos recomiendas? <a href="#contacto">Escríbenos</a></p>
+    </section>
+
+    <!-- ===================== REELS ===================== -->
+    <section class="reels" id="reels" aria-labelledby="reels-title">
+      <div class="wrap">
+        <div class="reels__head">
+          <h2 id="reels-title" class="display" data-reveal>Así se ve el viaje</h2>
+          <div class="reels__more" data-reveal style="--d: 100ms">
+            <a class="btn btn--ghost btn--small" href="https://www.instagram.com/seventraveel/" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg><span>Instagram</span>
+            </a>
+            <a class="btn btn--ghost btn--small" href="https://www.tiktok.com/@seventraveel" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-tt"/></svg><span>TikTok</span>
+            </a>
+          </div>
+        </div>
+        <div class="reels__grid">
+          <figure class="reel" data-reveal>
+            <div class="reel__frame">
+              <video preload="none" playsinline poster="assets/video/sonson-poster.webp" src="assets/video/sonson.mp4"></video>
+              <button class="reel__play" type="button" aria-label="Reproducir: Razones para conocer Sonsón">
+                <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>
+              </button>
+            </div>
+            <figcaption>Razones para conocer Sonsón</figcaption>
+          </figure>
+          <figure class="reel" data-reveal style="--d: 90ms">
+            <div class="reel__frame">
+              <video preload="none" playsinline poster="assets/video/cafe-antioquia-poster.webp" src="assets/video/cafe-antioquia.mp4"></video>
+              <button class="reel__play" type="button" aria-label="Reproducir: Probando café en Antioquia">
+                <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>
+              </button>
+            </div>
+            <figcaption>Probando café en Antioquia, día 1</figcaption>
+          </figure>
+          <figure class="reel" data-reveal style="--d: 180ms">
+            <div class="reel__frame">
+              <video preload="none" playsinline poster="assets/video/termales-espiritu-santo-poster.webp" src="assets/video/termales-espiritu-santo.mp4"></video>
+              <button class="reel__play" type="button" aria-label="Reproducir: Termales del Espíritu Santo">
+                <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>
+              </button>
+            </div>
+            <figcaption>Termales del Espíritu Santo</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Galería del camino: para agregar una foto copia un <li> -->
+      <div class="wrap gallery">
+        <h3 class="gallery__title" data-reveal>Del camino</h3>
+        <ul class="gallery__grid">
+          <li class="media" data-reveal><img src="assets/img/pareja-mirador-embalse-800.webp" alt="Camilo y Evelyn con la V-Strom en un mirador sobre un embalse" width="800" height="1067" loading="lazy"></li>
+          <li class="media is-wide" data-reveal style="--d: 70ms"><img src="assets/img/cascos-embalse-800.webp" alt="Selfie de los dos con casco junto a la moto frente a un embalse" width="800" height="600" loading="lazy"></li>
+          <li class="media" data-reveal style="--d: 140ms"><img src="assets/img/rafting-rio-800.webp" alt="Camilo y Evelyn con casco y chaleco salvavidas en un cañón con río" width="800" height="1067" loading="lazy"></li>
+          <li class="media" data-reveal><img src="assets/img/iglesia-blanca-800.webp" alt="Los dos sentados en las escaleras de una iglesia blanca con detalles verdes" width="800" height="1067" loading="lazy"></li>
+          <li class="media" data-reveal style="--d: 70ms"><img src="assets/img/vstrom-carretera-800.webp" alt="Evelyn y Camilo junto a la V-Strom en una carretera rodeada de vegetación" width="800" height="1067" loading="lazy"></li>
+          <li class="media" data-reveal style="--d: 140ms"><img src="assets/img/iglesia-ladrillo-800.webp" alt="Camilo y Evelyn frente a una iglesia de ladrillo con casco en mano" width="800" height="1067" loading="lazy"></li>
+          <li class="media" data-reveal><img src="assets/img/portada-moto-montanas-800.webp" alt="Los dos con la V-Strom roja y montañas de Antioquia de fondo" width="800" height="1067" loading="lazy"></li>
+          <li class="media is-wide" data-reveal style="--d: 70ms"><img src="assets/img/selfie-noche-800.webp" alt="Selfie nocturna de Evelyn y Camilo con chaquetas de moto entre plantas" width="800" height="600" loading="lazy"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== MARCAS ===================== -->
+    <section class="brands" id="marcas" aria-labelledby="brands-title">
+      <div class="wrap">
+        <div class="brands__card" data-reveal>
+          <div class="media brands__photo">
+            <img src="assets/img/colaboracion-restaurante-800.webp" alt="Evelyn y Camilo probando una picada en un restaurante, en una colaboración de contenido" width="800" height="987" loading="lazy">
+          </div>
+          <h2 id="brands-title" class="display">Contenido real, contado desde la carretera</h2>
+          <div class="brands__text">
+            <p>En Seven Travel cada pieza de contenido surge de lo que vivimos: el movimiento, los lugares, las personas y las experiencias que nos transforman.</p>
+            <p>Las marcas que trabajan con nosotros obtienen contenido auténtico, cercano y creíble, dirigido a una audiencia viajera que valora la honestidad y la recomendación basada en la experiencia. Cada colaboración está pensada para generar confianza, visibilidad orgánica y conexión real con potenciales clientes.</p>
+            <div class="brands__actions">
+              <a class="btn btn--dark" data-wa="marcas" href="https://wa.me/573046839246" target="_blank" rel="noopener">
+                <span>Hablemos de tu marca</span>
+              </a>
+              <a class="btn btn--light-ghost" data-email="marcas" href="#" hidden>
+                <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span>Escríbenos un correo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== CONTACTO / PIE ===================== -->
+  <footer class="footer" id="contacto">
+    <div class="wrap footer__inner" data-reveal>
+      <img class="footer__logo" src="assets/logo/seventravel.svg" alt="Seven Travel" width="150" height="95" loading="lazy">
+      <h2 class="footer__title">¿Rodamos juntos?</h2>
+      <ul class="footer__links">
+        <li><a class="btn btn--wa" data-wa="general" href="https://wa.me/573046839246" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span></a></li>
+        <li><a class="btn btn--ghost" href="https://www.instagram.com/seventraveel/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg><span>Instagram</span></a></li>
+        <li><a class="btn btn--ghost" href="https://www.tiktok.com/@seventraveel" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-tt"/></svg><span>TikTok</span></a></li>
+        <li hidden><a class="btn btn--ghost" data-email="general" href="#"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span>Correo</span></a></li>
+      </ul>
+      <p class="footer__handle">+57 304 683 9246</p>
+    </div>
+    <p class="wrap footer__legal">Seven Travel. Viajes en moto por Colombia desde 2023.</p>
+  </footer>
+
+  <!-- Íconos (se reutilizan con <use href="#...">) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.13-1.35A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.04.8.81-2.97-.2-.3a8.2 8.2 0 1 1 6.91 3.8Zm4.5-6.14c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.13-.55.12-.16.25-.63.8-.78.96-.14.16-.29.18-.53.06a6.7 6.7 0 0 1-1.98-1.22 7.4 7.4 0 0 1-1.37-1.7c-.14-.25 0-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.7 2.7 0 0 0-.86 2.03c0 1.2.88 2.36 1 2.52.12.17 1.73 2.64 4.2 3.7.58.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.46-.6 1.66-1.17.21-.58.21-1.07.15-1.17-.06-.11-.22-.17-.47-.29Z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 2.8h10A4.2 4.2 0 0 1 21.2 7v10a4.2 4.2 0 0 1-4.2 4.2H7A4.2 4.2 0 0 1 2.8 17V7A4.2 4.2 0 0 1 7 2.8Z"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-tt" viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 2h-3.3v13.2a2.9 2.9 0 1 1-2.1-2.8V9a6.2 6.2 0 1 0 5.4 6.2V8.6a7.8 7.8 0 0 0 4.4 1.4V6.7A4.5 4.5 0 0 1 16.6 2Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 5.5h18v13H3z M3 6l9 7 9-7"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.2v13.6a.8.8 0 0 0 1.2.7l10.6-6.8a.8.8 0 0 0 0-1.4L9.2 4.5A.8.8 0 0 0 8 5.2Z"/></symbol>
+  </svg>
+
+  <!-- Desplazamiento suave con inercia (Lenis, versión fija). Si no carga, la página funciona igual. -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
